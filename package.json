@@ -2,7 +2,9 @@
   "name": "default-project-name",
   "description": "Default project for infiniteloops.co",
   "version": "0.0.1",
-  "scripts": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "contributors": [
     {
       "name": "Angel Celis Botto",
