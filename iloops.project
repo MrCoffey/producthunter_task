@@ -1,6 +1,6 @@
 {
   "name": "default project",
-  "app_id": "app id here",
+  "app_id": "app id",
   "loops": {
     "every_type": "day",
     "every_time": "1"

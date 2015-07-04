@@ -2,20 +2,33 @@
   "name": "default-project-name",
   "description": "Default project for infiniteloops.co",
   "version": "0.0.1",
+  "main": "src/app.js",
+  "author": "Infinite Loops Team",
+  "license": "MIT",
   "scripts": {
     "start": "node src/app.js"
   },
+  "keywords": [
+      "infiniteloops"
+  ],
   "contributors": [
     {
-      "name": "Angel Celis Botto",
-      "email": "a.botto@kreattiewe.com",
-      "web": "http://botti.co"
+      "name" : "Angel Botto",
+      "email" : "angelbotto@gmail.com",
+      "url" : "https://botti.co"
     },
     {
-      "name": "Michel Perez",
-      "email": "m.perez@kreattiewe.com",
-      "web": "https://mrkaspa.com"
+      "name" : "Michel Perez",
+      "email" : "michel.ingesoft@gmail.com",
+      "url" : "https://mrkaspa.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infiniteloopsco/default-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/infiniteloopsco/default-project/issues"
+  },
   "homepage": "https://infiniteloops.co"
 }
