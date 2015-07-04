@@ -1,0 +1,19 @@
+{
+  "name": "default-project-name",
+  "description": "Default project for infiniteloops.co",
+  "version": "0.0.1",
+  "scripts": "src/app.js",
+  "contributors": [
+    {
+      "name": "Angel Celis Botto",
+      "email": "a.botto@kreattiewe.com",
+      "web": "http://botti.co"
+    },
+    {
+      "name": "Michel Perez",
+      "email": "m.perez@kreattiewe.com",
+      "web": "https://mrkaspa.com"
+    }
+  ],
+  "homepage": "https://infiniteloops.co"
+}
