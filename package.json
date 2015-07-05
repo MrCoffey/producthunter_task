@@ -1,6 +1,6 @@
 {
-  "name": "default-project-name",
-  "description": "Default project for infiniteloops.co",
+  "name": "%s",
+  "description": "%s for infiniteloops.co",
   "version": "0.0.1",
   "main": "src/app.js",
   "author": "Infinite Loops Team",
