@@ -1,8 +1,12 @@
 {
-  "name": "%s",
-  "app_id": "%s",
-  "loops": {
-    "every_type": "day",
-    "every_time": "1"
-  }
+	"name": "%s",
+	"app_id": "%s",
+	"loops": {
+		"every_type": "day",
+		"every_time": "1",
+		"start_date": "14/07/2015",
+		"start_time": "21:00",
+		"end_date": "14/07/2015",
+		"end_time": "21:00"
+	}
 }
