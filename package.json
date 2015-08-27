@@ -1,6 +1,6 @@
 {
-  "name": "hogardulcehogar-fb",
-  "description": "Hogardulcehogar.co for infiniteloops.co",
+  "name": "Product-hunter",
+  "description": "It post the last 10 products from the Product-hunter site into you chanel in slack ",
   "version": "0.0.1",
   "main": "src/app.js",
   "author": "Infinite Loops Team",
@@ -9,9 +9,14 @@
     "start": "node dist/app.js"
   },
   "keywords": [
-    "infiniteloops"
+    "infiniteloops",
+    "Product-hunter"
   ],
   "contributors": [
+      {
+      "name": "Jorge Madrid",
+      "email": "jlmadrid360@gmail.com"
+    },
     {
       "name": "Angel Botto",
       "email": "angelbotto@gmail.com",
@@ -25,10 +30,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/infiniteloopsco/default-project.git"
+    "url": "https://github.com/infiniteloopsco/product-hunter-idea.git"
   },
   "bugs": {
-    "url": "https://github.com/infiniteloopsco/default-project/issues"
+    "url": "https://github.com/infiniteloopsco/product-hunter-idea/issues"
   },
   "homepage": "https://infiniteloops.co",
   "dependencies": {
