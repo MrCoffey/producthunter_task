@@ -50,7 +50,7 @@ productsList = function(productsArray) {
     });
   });
   return slack.webhook(productsObject(attachments), function(err, response) {
-    return console.log('Listo ☕');
+    return console.log('Listo brotha ☕');
   });
 };
 

@@ -44,7 +44,7 @@ productsList = (productsArray) ->
 
   #Send attachament object to the slack room
   slack.webhook productsObject(attachments), (err, response) ->
-      console.log 'Listo ☕'
+      console.log 'Listo brotha ☕'
 
 #Return the string that will be prompted into the slack room
 productsObject = (attachments) ->
