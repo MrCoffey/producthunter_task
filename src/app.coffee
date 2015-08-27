@@ -17,7 +17,7 @@ jsonHttp.getJson productsUrl, (err, response) ->
     productsArray = response["results"]["products"] #Return an array with all the products
     productsList(productsArray)
   else
-    console.log "Houston we have an error: " + err
+    console.log "🚀 Houston we have an error: " + err
 
 #Parse the array which contains the products
 productsList = (productsArray) ->

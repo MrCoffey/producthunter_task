@@ -20,7 +20,7 @@ jsonHttp.getJson(productsUrl, function(err, response) {
     productsArray = response["results"]["products"];
     return productsList(productsArray);
   } else {
-    return console.log("Houston we have an error: " + err);
+    return console.log("🚀 Houston we have an error: " + err);
   }
 });
 
