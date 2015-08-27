@@ -3,12 +3,12 @@ os = require('os')
 jsonHttp = require('json-http')
 
 #Slack stuff
-webhookUri = 'https://hooks.slack.com/services/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'
+webhookUri = 'URL'
 slack = new Slack
 slack.setWebhook webhookUri
 
 #Kimono uri
-productsUrl = 'http://www.kimonolabs.com/api/92bh1m08?apikey=K62btvEgWDCF5tcbDcSTgoT4Bu0FIJCX'
+productsUrl = 'URL'
 
 #Get products from kimono
 jsonHttp.getJson productsUrl, (err, response) ->

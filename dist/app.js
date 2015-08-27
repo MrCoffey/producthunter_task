@@ -6,13 +6,13 @@ os = require('os');
 
 jsonHttp = require('json-http');
 
-webhookUri = 'https://hooks.slack.com/services/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';
+webhookUri = 'URL';
 
 slack = new Slack;
 
 slack.setWebhook(webhookUri);
 
-productsUrl = 'http://www.kimonolabs.com/api/92bh1m08?apikey=K62btvEgWDCF5tcbDcSTgoT4Bu0FIJCX';
+productsUrl = 'URL';
 
 jsonHttp.getJson(productsUrl, function(err, response) {
   var productsArray;
