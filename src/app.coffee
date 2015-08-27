@@ -10,6 +10,8 @@ slack.setWebhook webhookUri
 #Kimono uri
 productsUrl = 'URL'
 
+
+
 #Get products from kimono
 jsonHttp.getJson productsUrl, (err, response) ->
   if err isnt "null"
