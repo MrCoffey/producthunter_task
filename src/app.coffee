@@ -18,7 +18,6 @@ jsonHttp.getJson productsUrl, (err, response) ->
   else
     console.log "Houston we have an error: " + err
 
-
 #Parse the array which contains the products
 productsList = (productsArray) ->
   productsArray = productsArray.slice(0,4)
